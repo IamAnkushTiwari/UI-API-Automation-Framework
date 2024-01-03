@@ -1,0 +1,22 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/A200268765/Downloads/CAT">
+        <listeners>
+            <listener class-name="Utility.Listeners"/>
+        </listeners>
+        <classes>
+            <class name="CATTS.TestSet1">
+                <methods>
+                    <include name="ValidateURL"/>
+                    <include name="RedirectRegister"/>
+                    <include name="ValidateUserRegisteration"/>
+                    <include name="ValidateUserLogin"/>
+                    <include name="CreateCompetitorData"/>
+                    <include name="UpdateCompetitorData"/>
+                    <include name="FilterCompetitorData"/>
+                    <include name="DownloadExcel"/>
+                    <include name="Logout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

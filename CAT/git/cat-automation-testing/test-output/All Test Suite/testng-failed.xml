@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="Utility.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/A200268765/Downloads/CAT(failed)">
+    <classes>
+      <class name="CATTS.TestSet1">
+        <methods>
+          <include name="FilterCompetitorData"/>
+          <include name="callPage"/>
+          <include name="callBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- CATTS.TestSet1 -->
+    </classes>
+  </test> <!-- C:/Users/A200268765/Downloads/CAT(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
